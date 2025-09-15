@@ -1,29 +1,29 @@
 
 
 abstract class Appliance {
-  void turnOn();
-  void turnOff();
+   turnOn();
+   turnOff();
 }
 
 // sub class
 class Fan extends Appliance {
 
-  void turnOn() {
+   turnOn() {
     print("Fan is now running");
   }
 
-  void turnOff() {
+   turnOff() {
     print("Fan is now stop");
   }
 }
 
 class Light extends Appliance {
 
-  void turnOn() {
+   turnOn() {
     print("Light is switched on");
   }
 
-  void turnOff() {
+   turnOff() {
     print("Light is switched off");
   }
 }

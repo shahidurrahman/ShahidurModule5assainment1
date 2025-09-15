@@ -9,14 +9,14 @@ class Book {
     return price - (price * discountPercent / 100);
   }
 /// display book details
-  void displayDetails() {
+   displayDetails() {
     print('title : $titel');
     print('Author: $author');
     print('Price: ${price.toStringAsFixed(2)}');
   }
 }
 
-void main() {
+ main() {
   Book book1 = Book('the story', 'shahidur', 80);
   Book book2 = Book('time management', 'shahinur', 500);
 

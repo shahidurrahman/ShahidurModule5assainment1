@@ -12,7 +12,7 @@ class Manager extends Employee {
   Manager(String name, double salary, this.department) : super(name, salary);
 
   // Method to display complete information for a Manager
-  void displayInfo() {
+   displayInfo() {
     print('Manager Details informantion:');
     print('Name: $name');
     print('Salary: ${salary.toStringAsFixed(2)}');
@@ -29,7 +29,7 @@ class Developer extends Employee {
       : super(name, salary);
 
   // Method to display complete information for a Developer
-  void displayInfo() {
+   displayInfo() {
     print('Developer Details:');
     print('Name: $name');
     print('Salary: ${salary.toStringAsFixed(2)}');
